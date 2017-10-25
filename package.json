@@ -35,7 +35,6 @@
     },
     "dependencies": {
         "unomp-multi-hashing": "*",
-        "phi": "git://github.com/216k155/node-phi-hashing-module.git",
         "bignum": "*",
         "base58-native": "*",
         "async": "*",
