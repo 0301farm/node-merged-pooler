@@ -4,7 +4,7 @@
     "description": "High performance Stratum poolserver in Node.js for merged mining",
     "keywords": [
         "stratum",
-	"merged",
+        "merged",
         "mining",
         "pool",
         "server",
@@ -22,7 +22,7 @@
     "license": "GPL-2.0",
     "author": "Daniel Beal",
     "contributors": [
-	"zone117x",
+        "zone117x",
         "vekexasia",
         "TheSeven",
         "sigwo",
@@ -31,14 +31,14 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/UNOMP/node-merged-pool.git"
+        "url": "https://github.com/0301farm/node-merged-pool.git"
     },
     "dependencies": {
-        "unomp-multi-hashing": "*",
-        "bignum": "*",
-        "base58-native": "*",
         "async": "*",
-        "redis": "*"
+        "base58-native": "*",
+        "bignum": "*",
+        "redis": "*",
+        "unomp-multi-hashing": "git+https://github.com/0301farm/node-multi-hashing.git"
     },
     "engines": {
         "node": ">=0.10"
